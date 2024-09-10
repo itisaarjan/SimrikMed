@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import Navbar from './Components/Navbar'
 import HeroSection from './Components/HeroSection'
+import ServiceList from './Components/ServiceList'
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import Home from './pages/Home';
 
 
 function App() {
@@ -8,8 +11,14 @@ function App() {
 
   return (
     <>
+    <BrowserRouter>
     <Navbar/>
-    <HeroSection/>
+    <Routes>
+      <Route path='/' element={<Home/>}></Route>
+    </Routes>
+    </BrowserRouter>
+
+    
     </>
   )
 }

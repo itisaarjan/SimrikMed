@@ -3,7 +3,7 @@ import React from 'react'
 function Navbar() {
   return (
     <>
-      <div className="navbar bg-white">
+      <div className="navbar bg-white text-center">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost md:hidden">
@@ -25,16 +25,20 @@ function Navbar() {
               className="menu menu-sm dropdown-content bg-white rounded-box z-10 mt-3 w-52 p-2 shadow-lg text-black">
               <li><a>Home</a></li>
               <li>
-                <a>Services</a>
+                <details>
+                <summary>Services</summary>
                 <ul className="p-2 mt-1 bg-white shadow-lg rounded-box">
-                  <li><a>Submenu 1</a></li>
-                  <li><a>Submenu 2</a></li>
-                  <li><a>Submenu 2</a></li>
-                  <li><a>Submenu 2</a></li>
-                  <li><a>Submenu 2</a></li>
-                  <li><a>Submenu 2</a></li>
-                  <li><a>Submenu 2</a></li>
+                        <li><a>Primary care Services</a></li>
+                        <li><a>Medical Clearence</a></li>
+                        <li><a>Medical Weight Loss</a></li>
+                        <li><a>Physical Exams</a></li>
+                        <li><a>IV FLUIDS</a></li>
+                        <li><a>Lab tests and Screening</a></li>
+                        <li><a>Wellness Services</a></li>
+                        <li><a>Chronic Medical Conditions</a></li>
+                        <li><a>Virtual Care</a></li>
                 </ul>
+              </details>
               </li>
               <li><a>Patient Portal</a></li>
               <li><a>About Us</a></li>
@@ -56,14 +60,16 @@ function Navbar() {
             <li>
              <details>
                 <summary>Services</summary>
-                    <ul className="p-2 mt-1 bg-white shadow-lg rounded-box w-72"> 
-                        <li><a>Submenu 1</a></li>
-                        <li><a>Submenu 2</a></li>
-                        <li><a>Submenu 3</a></li>
-                        <li><a>Submenu 4</a></li>
-                        <li><a>Submenu 5</a></li>
-                        <li><a>Submenu 6</a></li>
-                        <li><a>Submenu 7</a></li>
+                    <ul className="p-2 mt-1 bg-white shadow-lg rounded-box w-72 z-100"> 
+                        <li><a>Primary care Services</a></li>
+                        <li><a>Medical Clearence</a></li>
+                        <li><a>Medical Weight Loss</a></li>
+                        <li><a>Physical Exams</a></li>
+                        <li><a>IV FLUIDS</a></li>
+                        <li><a>Lab tests and Screening</a></li>
+                        <li><a>Wellness Services</a></li>
+                        <li><a>Chronic Medical Conditions</a></li>
+                        <li><a>Virtual Care</a></li>
                     </ul>
             </details>
 
