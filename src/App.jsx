@@ -5,6 +5,7 @@ import ServiceList from './Components/ServiceList'
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Home from './pages/Home';
 import PrimaryCare from './pages/PrimaryCare';
+import WeightLoss from './pages/weightLoss';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <Routes>
       <Route path='/' element={<Home/>}></Route>
       <Route path='/services/primary-care-services' element={<PrimaryCare/>} />
+      <Route path='/services/medical-weight-loss' element={<WeightLoss/>}/>
     </Routes>
 
     </BrowserRouter>

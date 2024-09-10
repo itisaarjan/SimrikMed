@@ -1,10 +1,26 @@
 import React from 'react';
 import ServicePage from '../Components/ServicePage';
+import img1 from '../assets/PrimaryCare/pc1.jpg';
+import img2 from '../assets/PrimaryCare/pc2.jpg';
+import img3 from '../assets/PrimaryCare/pc3.webp';
+import img4 from '../assets/PrimaryCare/pc4.webp';
+import img5 from '../assets/PrimaryCare/pc5.jpg';
+import img6 from '../assets/PrimaryCare/pc6.avif';
 
 function PrimaryCare() {
   return (
     <ServicePage 
         title='Primary care Services'
+        img1={img1}
+        img2={img2}
+        img3={img3}
+        img4={img4}
+        img5={img5}
+        img6={img6}
+        header={<>
+        Our team will support you in building a healthier you.<br /> 
+                No matter what your health needs are...
+        </>}
       content={
         <>
             <ul className='flex flex-col items-start justify-center m-auto list-disc'>

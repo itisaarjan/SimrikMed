@@ -52,7 +52,7 @@ function Navbar() {
               </details>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl text-red-500">Simrik</a>
+          <a className="btn btn-ghost text-xl text-red-500" href='/'>Simrik</a>
         </div>
         <div className="navbar-center hidden md:flex text-black">
           <ul className="menu menu-horizontal px-1">
