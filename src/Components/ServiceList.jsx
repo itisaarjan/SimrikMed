@@ -15,10 +15,10 @@ import { Link } from 'react-router-dom'
 function ServiceList() {
   return (
     <>
-      <div className='mt-16 flex flex-col items-center justify-center gap-[2rem]'>
+      <div className='mt-16 flex flex-col items-center justify-center gap-[2rem] ml-12 mr-16'>
         <h1 className='text-4xl text-black'>Services</h1>
         <hr/>
-        <div className='grid grid-cols-3 gap-[2rem]'>
+        <div className='grid grid-cols-1 gap-[2rem] lg:grid-cols-4'>
           <Link to='/services/primary-care-services'>
             <ServiceIcon image={primarycare} title="Primary Care Services"/>
           </Link>

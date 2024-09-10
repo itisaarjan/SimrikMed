@@ -4,6 +4,7 @@ import HeroSection from './Components/HeroSection'
 import ServiceList from './Components/ServiceList'
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Home from './pages/Home';
+import PrimaryCare from './pages/PrimaryCare';
 
 
 function App() {
@@ -15,7 +16,9 @@ function App() {
     <Navbar/>
     <Routes>
       <Route path='/' element={<Home/>}></Route>
+      <Route path='/services/primary-care-services' element={<PrimaryCare/>} />
     </Routes>
+
     </BrowserRouter>
 
     
