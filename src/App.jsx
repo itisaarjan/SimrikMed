@@ -22,23 +22,24 @@ function App() {
 
   return (
     <>
-    <HashRouter>
-      <Navbar />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        {/* <Route path='/services/primary-care-services' element={<PrimaryCare />} /> */}
-        <Route path='/services/medical-weight-loss' element={<WeightLoss />} />
-        {/* <Route path='/services/physical-exams' element={<PhysicalExam />} /> */}
-        {/* <Route path='/services/women-wellness-family-planning' element={<WomenWellness />} /> */}
-        {/* <Route path='/services/chronic-medical-conditions' element={<ChronicMedical />} /> */}
-        {/* <Route path='/services/rapid-lab-tests-screening' element={<RapidTests />} /> */}
-        <Route path='/services/virtual-care' element={<VirtualCare />} />
-        {/* <Route path='/services/in-house-vaccination' element={<InHouseVaccination />} /> */}
-        <Route path='/about' element={<AboutUs />} />
-        <Route path='/contact' element={<ContactUs />} />
-      </Routes>
-      <Footer />
-    </HashRouter>
+    <BrowserRouter >
+    <Navbar/>
+    <Routes>
+      <Route path='/' element={<Home/>}></Route>
+      {/* <Route path='/services/primary-care-services' element={<PrimaryCare/>} /> */}
+      <Route path='/services/medical-weight-loss' element={<WeightLoss/>}/>
+      {/* <Route path='/services/physical-exams' element={<PhysicalExam/>}/> */}
+      {/* <Route path='/services/woman-wellness-family-planning' element={<WomenWellness/>}/> */}
+      {/* <Route path='/services/chronic-medical-conditions' element={<ChronicMedical/>}/> */}
+      {/* <Route path='/services/rapid-lab-tests-screening' element={<RapidTests/>}/> */}
+      <Route path='/services/virtual-care' element={<VirtualCare/>}/>
+      {/* <Route path='/services/in-house-vaccination' element={<InHouseVaccination/>}/> */}
+      <Route path='https://www.simrikmed.com/about' element={<AboutUs/>}/>
+      <Route path='https://www.simrikmed.com/contact' element={<ContactUs/>}/>
+    </Routes>
+    <Footer/>
+    </BrowserRouter>
+
     
     </>
   )
