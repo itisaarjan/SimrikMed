@@ -5,7 +5,7 @@ import ServiceList from '../Components/ServiceList'
 function Home() {
   return (
     
-    <div className='flex flex-column h-[100vh]'>
+    <div className='flex flex-col h-[100vh]'>
       <HeroSection/>
       <ServiceList/>
     </div>
