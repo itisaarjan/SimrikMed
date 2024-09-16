@@ -4,7 +4,7 @@ function HeroSection() {
   return (
     <div className='bg-white pl-12 pr-12 z-10 h-[30vh]'>
         <div className="hero bg-white ">
-  <div className="hero-content flex-col lg:flex-row-reverse">
+  <div className="hero-content flex-col lg:flex-row-reverse pt-32">
     {/* <img
       src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
       className="max-w-sm rounded-lg shadow-2xl" /> */}
