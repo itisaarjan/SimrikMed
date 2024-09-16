@@ -1,20 +1,27 @@
-import { HashRouter, Routes, Route } from 'react-router-dom';
-import Navbar from './Components/Navbar';
-import Footer from './Components/Footer';
+import { useState } from 'react'
+import Navbar from './Components/Navbar'
+import HeroSection from './Components/HeroSection'
+import ServiceList from './Components/ServiceList'
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Home from './pages/Home';
 import PrimaryCare from './pages/PrimaryCare';
-import WeightLoss from './pages/WeightLoss';
+import WeightLoss from './pages/weightLoss';
 import PhysicalExam from './pages/PhysicalExam';
 import WomenWellness from './pages/WomenWellness';
 import ChronicMedical from './pages/ChronicMedical';
 import RapidTests from './pages/RapidTests';
 import VirtualCare from './pages/VirtualCare';
 import InHouseVaccination from './pages/InHouseVaccination';
+import Footer from './Components/Footer';
 import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
 
+
 function App() {
+  // const [count, setCount] = useState(0)
+
   return (
+    <>
     <HashRouter>
       <Navbar />
       <Routes>
@@ -32,7 +39,9 @@ function App() {
       </Routes>
       <Footer />
     </HashRouter>
-  );
+    
+    </>
+  )
 }
 
-export default App;
+export default App
