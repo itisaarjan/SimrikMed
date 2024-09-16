@@ -37,9 +37,9 @@ function ServiceList() {
           {/* <Link to='/services/rapid-lab-tests-screening'>
             <ServiceIcon image={rapidlab} title="Rapid Lab Tests & Screening"/>
           </Link> */}
-          <Link to='/services/in-house-vaccination'>
+          {/* <Link to='/services/in-house-vaccination'>
             <ServiceIcon image={vaccination} title="In-House Vaccination"/>
-          </Link>
+          </Link> */}
           <Link to='/services/virtual-care'>
             <ServiceIcon image={virtualCare} title="Virtual Care"/>
           </Link>

@@ -26,9 +26,13 @@ function ServicePage(props) {
             <div className='text-black mt-4 flex flex-col items-center justify-center'>
                 {props.content}
             </div>
-            <button className="btn btn-primary bg-red-500 border-none hover:bg-red-500/80 mt-4 text-white ml-4">
+            {/* <a className="btn btn-primary bg-red-500 border-none hover:bg-red-500/80 mt-4 text-white ml-4" href='tel:+18139927839'>
                 Make a call
-            </button>
+            </a> */}
+
+            <div>
+                <h1 className='text-1xl mt-8 text-[black]'>Our services are HIPAA compliance</h1>
+            </div>
             <div className='flex items-center mt-8 justify-between'>
                 <div className='w-[33%] h-[200px]'>
                     <img src={props.img4} alt="image4" className='w-full h-full object-cover'/>

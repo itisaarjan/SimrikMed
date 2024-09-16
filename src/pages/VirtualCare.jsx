@@ -14,8 +14,8 @@ function VirtualCare() {
       content={
         <>
           In our med,patients are given oppurtunity to consult with healthcare professionals remotely using technology such as video conferencing, phone calls, or messaging apps. 
-          This approach ensures that patients can receive timely medical advice, prescriptions, and follow-up care without the need to physically visit a clinic. 
-          Virtual care is especially beneficial for managing chronic conditions, follow-up visits, or for consultations when immediate access to in-person care is not available. 
+          This approach ensures that patients can receive timely medical services such as prescription refill, cold, influenza, skin care, upper-respiratory symptoms, pain management, diabetes management, and medical weight loss with follow-up care without the need to physically visit a clinic. 
+          Virtual care is especially beneficial for managing urgent conditions, follow-up visits, or for consultations when immediate access to in-person care is not available. 
           With virtual care, healthcare becomes more accessible, flexible, and convenient.
         </>
       }
