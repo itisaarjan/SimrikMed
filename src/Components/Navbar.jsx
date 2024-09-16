@@ -42,8 +42,8 @@ function Navbar() {
               </details>
               </li>
               <li><a href='https://www.optimantra.com/optimus/om/patient/login' target='_blank'>Patient Portal</a></li>
-              <li><a href='https://www.simrikmed.com/about'>About Us</a></li>
-              <li><a href='https://www.simrikmed.com/contact'>Contact Us</a></li>
+              <li><a href='/about'>About Us</a></li>
+              <li><a href='/contact'>Contact Us</a></li>
               {/* <details>
                 <summary className="text-black">More</summary>
                 <ul className="p-2 mt-1 bg-white shadow-lg rounded-box ">
@@ -77,8 +77,8 @@ function Navbar() {
 
             </li>
             <li><a href='https://www.optimantra.com/optimus/om/patient/login' target='_blank'>Patient Portal</a></li>
-            <li><a href='https://www.simrikmed.com/contact'>Contact Us</a></li>
-            <li><a href='https://www.simrikmed.com/about'>About Us</a></li>
+            <li><a href='/contact'>Contact Us</a></li>
+            <li><a href='/about'>About Us</a></li>
             <li>
               {/* <details>
                 <summary>More</summary>
