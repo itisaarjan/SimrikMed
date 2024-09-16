@@ -4,10 +4,12 @@ import ServiceList from '../Components/ServiceList'
 
 function Home() {
   return (
-    <>
-    <HeroSection/>
-    <ServiceList/>
-    </>
+    
+    <div className='flex flex-column '>
+      <HeroSection/>
+      <ServiceList/>
+    </div>
+    
   )
 }
 
