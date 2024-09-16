@@ -2,7 +2,7 @@ import React from 'react'
 
 function HeroSection() {
   return (
-    <div className='bg-white pl-12 pr-12 z-10 h-[30vh]'>
+    <div className='bg-white pl-12 pr-12 z-10 h-[30vh] mb-4'>
         <div className="hero bg-white ">
   <div className="hero-content flex-col lg:flex-row-reverse pt-32">
     {/* <img
