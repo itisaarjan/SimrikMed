@@ -25,7 +25,7 @@ function ContactUs() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center p-6 bg-gray-100 h-[90vh]">
+    <div className="flex flex-col items-center justify-center p-6 bg-gray-100">
       <div className="flex flex-col bg-white rounded-lg shadow-lg overflow-hidden max-w-5xl w-full">
         <div className="p-6 bg-red-500 text-white">
           <h1 className="text-3xl font-bold">Contact Us</h1>
@@ -58,6 +58,7 @@ function ContactUs() {
                 required
               />
             </div>
+
             <div className="flex flex-col">
               <label htmlFor="phone" className="text-gray-700 font-medium">Phone Number</label>
               <input
