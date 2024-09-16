@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontSize: {
+        base: '18px',  // Set default font size to 18px
+      },
+    },
   },
   plugins: [
     require('daisyui'),
