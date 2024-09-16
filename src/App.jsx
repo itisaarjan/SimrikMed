@@ -9,6 +9,8 @@ import WeightLoss from './pages/weightLoss';
 import PhysicalExam from './pages/PhysicalExam';
 import WomenWellness from './pages/WomenWellness';
 import ChronicMedical from './pages/ChronicMedical';
+import RapidTests from './pages/RapidTests';
+import VirtualCare from './pages/VirtualCare';
 
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
       <Route path='/services/physical-exams' element={<PhysicalExam/>}/>
       <Route path='/services/woman-wellness-family-planning' element={<WomenWellness/>}/>
       <Route path='/services/chronic-medical-conditions' element={<ChronicMedical/>}/>
+      <Route path='/services/rapid-lab-tests-screening' element={<RapidTests/>}/>
+      <Route path='/services/virtual-care' element={<VirtualCare/>}/>
     </Routes>
 
     </BrowserRouter>

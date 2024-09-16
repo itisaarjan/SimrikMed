@@ -19,36 +19,36 @@ function ServiceList() {
         <h1 className='text-4xl text-black'>Services</h1>
         <hr/>
         <div className='grid grid-cols-1 gap-[2rem] lg:grid-cols-4'>
-          <Link to='/services/primary-care-services'>
+          {/* <Link to='/services/primary-care-services'>
             <ServiceIcon image={primarycare} title="Primary Care Services"/>
-          </Link>
+          </Link> */}
           <Link to='/services/medical-weight-loss'>
             <ServiceIcon image={weightLoss} title="Medical Weight Loss"/>
           </Link>
-          <Link to='/services/woman-wellness-family-planning'>
+          {/* <Link to='/services/woman-wellness-family-planning'>
             <ServiceIcon image={familyPlannning} title="Woman Wellness & Family Planning"/>
-          </Link>
-          <Link to='/services/physical-exams'>
+          </Link> */}
+          {/* <Link to='/services/physical-exams'>
             <ServiceIcon image={physicalExams} title="Physical Exams"/>
-          </Link>
-          <Link to='/services/chronic-medical-conditions'>
+          </Link> */}
+          {/* <Link to='/services/chronic-medical-conditions'>
             <ServiceIcon image={chronic} title="Chronic Medical Conditions"/>
-          </Link>
-          <Link to='/services/rapid-lab-tests-screening'>
+          </Link> */}
+          {/* <Link to='/services/rapid-lab-tests-screening'>
             <ServiceIcon image={rapidlab} title="Rapid Lab Tests & Screening"/>
-          </Link>
+          </Link> */}
           <Link to='/services/in-house-vaccination'>
             <ServiceIcon image={vaccination} title="In-House Vaccination"/>
           </Link>
           <Link to='/services/virtual-care'>
             <ServiceIcon image={virtualCare} title="Virtual Care"/>
           </Link>
-          <Link to='/services/medical-clearance'>
+          {/* <Link to='/services/medical-clearance'>
             <ServiceIcon image={medicalClearence} title="Medical Clearance"/>
-          </Link>
-          <Link to='/services/iv-fluids'>
+          </Link> */}
+          {/* <Link to='/services/iv-fluids'>
             <ServiceIcon image={ivFluids} title="IV Fluids"/>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </>
