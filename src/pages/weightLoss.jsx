@@ -11,7 +11,7 @@ function WeightLoss() {
   return (
     <ServicePage title='medical Weight Loss' 
     header={<h3><b>Our team will support in building a healthier you</b></h3>} 
-    content={<>  Our physician supervised weight loss programs are specially formulated to help patient lose weight. Strong emphasis on implementing lifestyle changes to reduce risk of metabolic syndrome.  Weight loss is essential to reduce risk factors with heart disease, diabetes mellitus type 2, insulin resistance, arthritis and sleep apnea. We work with you based on your needs. Several options available:  Prescription weight loss, Intermittent fasting, and Nutrition counselling</>}
+    content={<>  Our Physician and Advance Certified Nurse Practicioner supervised weight loss programs are specially formulated to help patient lose weight. Strong emphasis on implementing lifestyle changes to reduce risk of metabolic syndrome.  Weight loss is essential to reduce risk factors with heart disease, diabetes mellitus type 2, insulin resistance, arthritis and sleep apnea. We work with you based on your needs. Several options available:  Prescription weight loss, Intermittent fasting, and Nutrition counselling</>}
     img1={img1}
     img2={img2}
     img3={img3}
