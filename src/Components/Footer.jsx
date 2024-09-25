@@ -13,7 +13,7 @@ function Footer() {
   </nav>
   
   <aside>
-    <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
+    <p>Copyright © <span className='text-[#EF4444]'>SimrikMed</span> {new Date().getFullYear()} - All right reserved</p>
   </aside>
 </footer>
     </div>
