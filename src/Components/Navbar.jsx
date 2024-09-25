@@ -42,8 +42,8 @@ function Navbar() {
               </details>
               </li>
               <li><a href='https://www.optimantra.com/optimus/om/patient/login' target='_blank'>Patient Portal</a></li>
-              <li><a href='/about/about'>About Us</a></li>
-              <li><a href='/contact/contact'>Contact Us</a></li>
+              <li><a href='/about'>About Us</a></li>
+              <li><a href='/contact'>Contact Us</a></li>
               {/* <details>
                 <summary className="text-black">More</summary>
                 <ul className="p-2 mt-1 bg-white shadow-lg rounded-box ">
@@ -77,8 +77,8 @@ function Navbar() {
 
             </li>
             <li><a href='https://www.optimantra.com/optimus/om/patient/login' target='_blank'>Patient Portal</a></li>
-            <li><a href='/contact/contact'>Contact Us</a></li>
-            <li><a href='/about/about'>About Us</a></li>
+            <li><a href='/contact'>Contact Us</a></li>
+            <li><a href='/about'>About Us</a></li>
             <li>
               {/* <details>
                 <summary>More</summary>
@@ -91,7 +91,7 @@ function Navbar() {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn bg-red-500 hover:bg-red-500/75 border-none text-white" href='https://www.optimantra.com/optimus/om/patient/login' target='_blank'>Make appointment</a>
+          <a className=" hidden sm:btn sm:bg-red-500 sm:hover:bg-red-500/75 border-none text-white" href='https://www.optimantra.com/optimus/om/patient/login' target='_blank'>Make appointment</a>
         </div>
       </div>
     </>

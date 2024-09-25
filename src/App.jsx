@@ -34,8 +34,8 @@ function App() {
       {/* <Route path='/services/rapid-lab-tests-screening' element={<RapidTests/>}/> */}
       <Route path='/services/virtual-care' element={<VirtualCare/>}/>
       {/* <Route path='/services/in-house-vaccination' element={<InHouseVaccination/>}/> */}
-      <Route path='/about/about' element={<AboutUs/>}/>
-      <Route path='/contact/contact' element={<ContactUs/>}/>
+      <Route path='/about' element={<AboutUs/>}/>
+      <Route path='/contact' element={<ContactUs/>}/>
     </Routes>
     <Footer/>
     </BrowserRouter>
