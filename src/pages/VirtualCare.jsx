@@ -10,7 +10,7 @@ import img6 from '../assets/VirtualCare/vc6.jpeg';
 function VirtualCare() {
   return (
     <ServicePage 
-      title='Virtual Care' 
+      title='Virtual Urgent Care' 
       header={<h1><b>Experience healthcare from the comfort of your home</b></h1>} 
       content={
         <>
