@@ -30,18 +30,18 @@ function Navbar() {
                 <ul className="p-2 mt-1 bg-white shadow-lg rounded-box">
                         {/* <li><a>Primary care Services</a></li> */}
                         {/* <li><a>Medical Clearence</a></li> */}
-                        <li><a href='/services/medical-weight-loss'>Medical Weight Loss</a></li>
                         {/* <li><a>Physical Exams</a></li> */}
                         {/* <li><a>IV FLUIDS</a></li> */}
                         {/* <li><a>Lab tests and Screening</a></li> */}
                         {/* <li><a>Wellness Services</a></li> */}
                         {/* <li><a>Chronic Medical Conditions</a></li> */}
                         {/* <li><a href='/services/in-house-vaccination'>In-House vaccination</a></li> */}
-                        <li><a href='/services/virtual-care'>Virtual Care</a></li>
+                        <li><a href='/services/virtual-care'>Virtual Urgent Care</a></li>
+                        <li><a href='/services/medical-weight-loss'>Medical Weight Loss</a></li>
                 </ul>
               </details>
               </li>
-              <li><a href='https://www.optimantra.com/optimus/om/patient/login' target='_blank'>Patient Portal</a></li>
+              <li><a href='https://www.optimantra.com/optimus/patient/patientaccess/prospects?pid=cEdDUWtka2hqTmdVZEdKa252SDR2Zz09' target='_blank'>Patient Portal</a></li>
               <li><a href='/about'>About Us</a></li>
               <li><a href='/contact'>Contact Us</a></li>
               {/* <details>
@@ -64,19 +64,19 @@ function Navbar() {
                     <ul className="p-2 mt-1 bg-white shadow-lg rounded-box w-72 z-100"> 
                         {/* <li><a>Primary care Services</a></li> */}
                         {/* <li><a>Medical Clearence</a></li> */}
-                        <li><a href='/services/medical-weight-loss'>Medical Weight Loss</a></li>
                         {/* <li><a>Physical Exams</a></li> */}
                         {/* <li><a>IV FLUIDS</a></li> */}
                         {/* <li><a>Lab tests and Screening</a></li> */}
                         {/* <li><a>Wellness Services</a></li> */}
                         {/* <li><a>Chronic Medical Conditions</a></li> */}
                         {/* <li><a href='/services/in-house-vaccination'>In-House vaccination</a></li> */}
-                        <li><a href='/services/virtual-care'>Virtual Care</a></li>
+                        <li><a href='/services/virtual-care'>Virtual Urgent Care</a></li>
+                        <li><a href='/services/medical-weight-loss'>Medical Weight Loss</a></li>
                     </ul>
             </details>
 
             </li>
-            <li><a href='https://www.optimantra.com/optimus/om/patient/login' target='_blank'>Patient Portal</a></li>
+            <li><a href='https://www.optimantra.com/optimus/patient/patientaccess/prospects?pid=cEdDUWtka2hqTmdVZEdKa252SDR2Zz09' target='_blank'>Patient Portal</a></li>
             <li><a href='/contact'>Contact Us</a></li>
             <li><a href='/about'>About Us</a></li>
             <li>

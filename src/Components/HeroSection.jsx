@@ -10,7 +10,7 @@ function HeroSection() {
             <p className="text-black mt-4 text-lg sm:text-xl lg:text-2xl">
              
             </p>
-            <a className="btn btn-primary bg-red-500 border-none hover:bg-red-500/80 mt-4 text-white" href='https://www.optimantra.com/optimus/om/patient/login' target='_blank'>Make Appointment</a>
+            <a className="btn btn-primary bg-red-500 border-none hover:bg-red-500/80 mt-4 text-white" href='https://www.optimantra.com/optimus/patient/patientaccess/prospects?pid=cEdDUWtka2hqTmdVZEdKa252SDR2Zz09' target='_blank'>Make Appointment</a>
           </div>
         </div>
       </div>

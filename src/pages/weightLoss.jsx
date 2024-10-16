@@ -18,6 +18,7 @@ function WeightLoss() {
     img4={img4}
     img5={img5}
     img6={img6}
+    price="60"
     />
   )
 }

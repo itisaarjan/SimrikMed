@@ -6,6 +6,7 @@ import img3 from '../assets/VirtualCare/vc2.webp';
 import img4 from '../assets/VirtualCare/vc4.jpg';
 import img5 from '../assets/VirtualCare/vc5.webp';
 import img6 from '../assets/VirtualCare/vc6.jpeg';
+
 function VirtualCare() {
   return (
     <ServicePage 
@@ -13,10 +14,42 @@ function VirtualCare() {
       header={<h1><b>Experience healthcare from the comfort of your home</b></h1>} 
       content={
         <>
-          In our med,patients are given oppurtunity to consult with healthcare professionals remotely using technology such as video conferencing, phone calls, or messaging apps. 
-          This approach ensures that patients can receive timely medical services such as prescription refill, cold, influenza, skin care, upper-respiratory symptoms, pain management, diabetes management, and medical weight loss with follow-up care without the need to physically visit a clinic. 
-          Virtual care is especially beneficial for managing urgent conditions, follow-up visits, or for consultations when immediate access to in-person care is not available. 
-          With virtual care, healthcare becomes more accessible, flexible, and convenient.
+          In our med, patients are given the opportunity to consult with healthcare professionals remotely using technology such as video conferencing or phone calls. 
+          This approach ensures that patients can receive timely medical services such as:
+          <ul className="list-disc ml-5">
+            <li>Abdomen Pain</li>
+            <li>Allergies</li>
+            <li>Anxiety/Depression</li>
+            <li>Asthma</li>
+            <li>Back Pain/Sciatica</li>
+            <li>Bacterial vaginosis</li>
+            <li>Birth Control Pills</li>
+            <li>Bronchitis</li>
+            <li>Cough</li>
+            <li>Dental Infection</li>
+            <li>Diabetes</li>
+            <li>Erectile Dysfunction</li>
+            <li>Fall injury</li>
+            <li>Hair Loss</li>
+            <li>Headache</li>
+            <li>Hemorrhoids</li>
+            <li>High Blood Pressure</li>
+            <li>Insomnia</li>
+            <li>Migraine</li>
+            <li>Medication refill</li>
+            <li>Nausea/Vomiting/Diarrhea</li>
+            <li>Pink Eye</li>
+            <li>Quit Smoking</li>
+            <li>Rashes</li>
+            <li>Sinus Problem</li>
+            <li>Skin Infection</li>
+            <li>Sore Throat</li>
+            <li>STDs/STI screening and treatment</li>
+            <li>Upper respiratory symptoms</li>
+            <li>Wound</li>
+            <li>X-ray order</li>
+            <li>Yeast infection</li>
+          </ul>
         </>
       }
       img1={img1}
@@ -25,6 +58,7 @@ function VirtualCare() {
       img4={img4}
       img5={img5}
       img6={img6}
+      price="59"
     />
   );
 }
