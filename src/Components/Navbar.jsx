@@ -91,7 +91,7 @@ function Navbar() {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className=" hidden sm:btn sm:bg-red-500 sm:hover:bg-red-500/75 sm:border-none sm:text-white" href='https://www.optimantra.com/optimus/om/patient/login' target='_blank'>Make appointment</a>
+          <a className=" hidden sm:btn sm:bg-red-500 sm:hover:bg-red-500/75 sm:border-none sm:text-white" href='https://www.optimantra.com/optimus/patient/patientaccess/prospects?pid=cEdDUWtka2hqTmdVZEdKa252SDR2Zz09' target='_blank'>Make appointment</a>
         </div>
       </div>
     </>
