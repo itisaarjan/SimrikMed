@@ -28,6 +28,7 @@ function VirtualCare() {
             <li>Cough</li>
             <li>Dental Infection</li>
             <li>Diabetes</li>
+            <li>Drug Test</li>
             <li>Erectile Dysfunction</li>
             <li>Fall injury</li>
             <li>Hair Loss</li>
@@ -45,6 +46,7 @@ function VirtualCare() {
             <li>Skin Infection</li>
             <li>Sore Throat</li>
             <li>STDs/STI screening and treatment</li>
+            <li>TB Screening</li>
             <li>Upper respiratory symptoms</li>
             <li>Wound</li>
             <li>X-ray order</li>
