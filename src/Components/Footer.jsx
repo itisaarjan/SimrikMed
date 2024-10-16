@@ -16,7 +16,7 @@ function Footer() {
     <p>Copyright © <span className='text-[#EF4444]'>SimrikMed</span> {new Date().getFullYear()} - All right reserved</p>
   </aside>
   <aside>
-    <b><p className='text-red-500'>Medical Services provided only in Pennsylvania, Ohio, and Florida</p></b>
+    <b><p className='text-red-500'>These Services are for provided only in Pennsylvania, Ohio, and Florida residents</p></b>
   </aside>
 </footer>
     </div>
