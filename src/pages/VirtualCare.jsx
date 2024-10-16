@@ -38,6 +38,7 @@ function VirtualCare() {
             <li>Insomnia</li>
             <li>Migraine</li>
             <li>Medication refill</li>
+            <li>Muscle Spasm</li>
             <li>Nausea/Vomiting/Diarrhea</li>
             <li>Pink Eye</li>
             <li>Quit Smoking</li>
