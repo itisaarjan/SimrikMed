@@ -14,7 +14,7 @@ function VirtualCare() {
       header={<h1><b>Experience healthcare from the comfort of your home</b></h1>} 
       content={
         <>
-          In our med, patients are given the opportunity to consult with healthcare professionals remotely using technology such as video conferencing or phone calls. 
+          In our Virtual Urgent Care, patients are given the opportunity to consult with healthcare professionals remotely using technology such as video conferencing or phone calls. 
           This approach ensures that patients can receive timely medical services such as:
           <ul className="list-disc ml-5">
             <li>Abdomen Pain</li>

@@ -32,7 +32,7 @@ function ServicePage(props) {
 
             <div>
                 <h1 className='text-1xl mt-8 text-[black]'>Our services are HIPAA compliance</h1>
-                <h1 className='text-1xl mt-8 text-[black]'> Available only at ${props.price}</h1>
+                <h1 className='text-1xl mt-8 text-[black]'> <b>Available only at ${props.price}</b></h1>
             </div>
             <div className='flex items-center mt-8 justify-between'>
                 <div className='w-[33%] h-[200px]'>
