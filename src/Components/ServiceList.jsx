@@ -18,7 +18,7 @@ function ServiceList() {
         </Link>
       </div>
       <div>
-        <h1 className='text-3xl text-center text-[black] italic'>Pick medications to your nearest pharmacy</h1>
+        <h1 className='text-md text-center text-[red] italic'>Pick medications to your nearest pharmacy</h1>
       </div>
     </div>
   );
