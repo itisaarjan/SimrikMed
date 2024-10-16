@@ -20,7 +20,7 @@ function VirtualCare() {
             <li>Abdomen Pain</li>
             <li>Allergies</li>
             <li>Anxiety/Depression</li>
-            <li>Asthma</li>
+            <li>Asthma/ COPD</li>
             <li>Back Pain/Sciatica</li>
             <li>Bacterial vaginosis</li>
             <li>Birth Control Pills</li>
