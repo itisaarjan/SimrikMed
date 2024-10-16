@@ -48,6 +48,7 @@ function VirtualCare() {
             <li>STDs/STI screening and treatment</li>
             <li>TB Screening</li>
             <li>Upper respiratory symptoms</li>
+            <li>UTI</li>
             <li>Wound</li>
             <li>X-ray order</li>
             <li>Yeast infection</li>
