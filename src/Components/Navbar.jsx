@@ -96,7 +96,7 @@ function Navbar() {
             className="hidden sm:btn sm:bg-red-500 sm:hover:bg-red-500/75 sm:border-none sm:text-white p-2 rounded" 
             href="tel:+18134999090"
           >
-            Contact
+            Call Us
           </a>
         </div>
       </div>
