@@ -98,7 +98,7 @@ function ContactUs() {
                 className="mr-2"
               />
               <label htmlFor="smsConsent" className="text-sm text-gray-700">
-                SMS Consent: We will never spam you. By checking this box, you agree to receive SMS updates with onboarding and customer service information from Zivian Health to the number provided. Msg frequency varies. Msg and data rates may apply.
+                SMS Consent: We will never spam you. By checking this box, you agree to receive SMS updates with onboarding and customer service information from SimrikMed to the number provided. Msg frequency varies. Msg and data rates may apply.
               </label>
             </div>
 
