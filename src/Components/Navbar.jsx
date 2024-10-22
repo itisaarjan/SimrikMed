@@ -90,8 +90,15 @@ function Navbar() {
             </li>
           </ul>
         </div>
-        <div className="navbar-end">
+        <div className="navbar-end flex gap-[1rem] mt-4">
           <a className=" hidden sm:btn sm:bg-red-500 sm:hover:bg-red-500/75 sm:border-none sm:text-white" href='https://www.optimantra.com/optimus/patient/patientaccess/prospects?pid=cEdDUWtka2hqTmdVZEdKa252SDR2Zz09' target='_blank'>Make appointment</a>
+          <button 
+            className="hidden sm:btn sm:bg-red-500 sm:hover:bg-red-500/75 sm:border-none sm:text-white p-2 rounded"
+            onClick={() => alert('+1-813-499-9090')}
+          >
+            Contact
+          </button>
+
         </div>
       </div>
     </>
