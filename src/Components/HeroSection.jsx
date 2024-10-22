@@ -12,7 +12,7 @@ function HeroSection() {
             </p>
             <a className="btn btn-primary bg-red-500 border-none hover:bg-red-500/80 mt-4 text-white" href='https://www.optimantra.com/optimus/patient/patientaccess/prospects?pid=cEdDUWtka2hqTmdVZEdKa252SDR2Zz09' target='_blank'>Make Appointment</a>
             <button 
-            className="hidden sm:btn sm:bg-red-500 sm:hover:bg-red-500/75 sm:border-none sm:text-white p-2 rounded m-4"
+            className=" sm:btn sm:bg-red-500 sm:hover:bg-red-500/75 sm:border-none sm:text-white p-2 rounded m-4"
             onClick={() => alert('+1-813-499-9090')}
           >Contact Us</button>
           </div>
