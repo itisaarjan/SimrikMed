@@ -41,7 +41,7 @@ function Navbar() {
                 </ul>
               </details>
               </li>
-              <li><a href='https://www.optimantra.com/optimus/patient/patientaccess/prospects?pid=cEdDUWtka2hqTmdVZEdKa252SDR2Zz09' target='_blank'>Patient Portal</a></li>
+              <li><a href='https://www.optimantra.com/optimus/om/patient/login?accessPoint=UzBCcVd2WTZiRnNsUkpCOWQ4ZU1udz09' target='_blank'>Patient Portal</a></li>
               <li><a href='/about'>About Us</a></li>
               <li><a href='/contact'>Contact Us</a></li>
               {/* <details>
@@ -76,7 +76,7 @@ function Navbar() {
             </details>
 
             </li>
-            <li><a href='https://www.optimantra.com/optimus/patient/patientaccess/prospects?pid=cEdDUWtka2hqTmdVZEdKa252SDR2Zz09' target='_blank'>Patient Portal</a></li>
+            <li><a href='https://www.optimantra.com/optimus/om/patient/login?accessPoint=UzBCcVd2WTZiRnNsUkpCOWQ4ZU1udz09' target='_blank'>Patient Portal</a></li>
             <li><a href='/contact'>Contact Us</a></li>
             <li><a href='/about'>About Us</a></li>
             <li>
@@ -91,7 +91,7 @@ function Navbar() {
           </ul>
         </div>
         <div className="navbar-end flex gap-[1rem] mt-4">
-          <a className=" hidden sm:btn sm:bg-red-500 sm:hover:bg-red-500/75 sm:border-none sm:text-white" href='https://www.optimantra.com/optimus/patient/patientaccess/prospects?pid=cEdDUWtka2hqTmdVZEdKa252SDR2Zz09' target='_blank'>Make appointment</a>
+          <a className=" hidden sm:btn sm:bg-red-500 sm:hover:bg-red-500/75 sm:border-none sm:text-white" href='https://www.optimantra.com/optimus/patient/patientaccess/servicesall?pid=QjdaSHA4dlg5eWZtbU0yTFFMR0NPUT09&lid=cGFrZGxyMVkvc2wvdnByYkdWcjRBdz09' target='_blank'>Make appointment</a>
           <a 
             className="hidden sm:btn sm:bg-red-500 sm:hover:bg-red-500/75 sm:border-none sm:text-white p-2 rounded" 
             href="tel:+18134999090"
