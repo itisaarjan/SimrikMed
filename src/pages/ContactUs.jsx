@@ -1,11 +1,17 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 function ContactUs() {
   const form = useRef();
+  const [isConsentChecked, setIsConsentChecked] = useState(false); // Track SMS consent checkbox
 
   const sendEmail = (e) => {
     e.preventDefault();
+
+    if (!isConsentChecked) {
+      alert('Please agree to the SMS Consent to proceed.');
+      return;
+    }
 
     emailjs
       .sendForm('service_567gxwk', 'template_zkoe9pt', form.current, {
@@ -40,7 +46,7 @@ function ContactUs() {
               <input
                 id="name"
                 type="text"
-                name='from_name'
+                name="from_name"
                 className="border border-gray-300 bg-white rounded p-2 focus:outline-none focus:ring-1 focus:ring-blue-500"
                 placeholder="Enter your full name"
                 required
@@ -52,7 +58,7 @@ function ContactUs() {
               <input
                 id="email"
                 type="email"
-                name='email'
+                name="email"
                 className="border border-gray-300 bg-white rounded p-2 focus:outline-none focus:ring-1 focus:ring-blue-500"
                 placeholder="Enter your email"
                 required
@@ -64,7 +70,7 @@ function ContactUs() {
               <input
                 id="phone"
                 type="tel"
-                name='number'
+                name="number"
                 className="border border-gray-300 bg-white rounded p-2 focus:outline-none focus:ring-1 focus:ring-blue-500"
                 placeholder="Enter your number"
                 required
@@ -76,16 +82,30 @@ function ContactUs() {
               <textarea
                 id="message"
                 rows="3"
-                name='message'
+                name="message"
                 className="border border-gray-300 bg-white rounded p-2 focus:outline-none focus:ring-1 focus:ring-blue-500"
                 placeholder="Write your message here"
                 required
               />
             </div>
 
+            <div className="flex items-center mt-4">
+              <input
+                id="smsConsent"
+                type="checkbox"
+                checked={isConsentChecked}
+                onChange={() => setIsConsentChecked(!isConsentChecked)}
+                className="mr-2"
+              />
+              <label htmlFor="smsConsent" className="text-sm text-gray-700">
+                SMS Consent: We will never spam you. By checking this box, you agree to receive SMS updates with onboarding and customer service information from Zivian Health to the number provided. Msg frequency varies. Msg and data rates may apply.
+              </label>
+            </div>
+
             <button
               type="submit"
-              className="w-full bg-blue-500 text-white text-sm font-bold py-2 rounded hover:bg-blue-600 transition duration-200"
+              className={`w-full bg-blue-500 text-white text-sm font-bold py-2 rounded hover:bg-blue-600 transition duration-200 ${!isConsentChecked ? 'opacity-50 cursor-not-allowed' : ''}`}
+              disabled={!isConsentChecked} // Disable button if checkbox is not checked
             >
               Send Message
             </button>
