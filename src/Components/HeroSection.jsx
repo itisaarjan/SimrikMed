@@ -6,7 +6,7 @@ function HeroSection() {
       <div className="hero bg-white">
         <div className="hero-content flex-col lg:flex-row-reverse pt-16 lg:pt-32" >
           <div className='w-full lg:w-[60vw]'>
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-black">SimrikMed LLC</h1>
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-black">SimrikMed </h1>
             <p className="text-black mt-4 text-lg sm:text-xl lg:text-2xl">
              
             </p>
