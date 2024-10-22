@@ -29,7 +29,7 @@ function ContactUs() {
       <div className="flex flex-col bg-white rounded-lg shadow-lg overflow-auto max-w-md w-full">
         <div className="p-4 bg-red-500 text-white">
           <h1 className="text-xl font-bold">Contact Us</h1>
-          <p className="text-sm">We'd love to hear from you! Please reach out using the form below or contact us directly.</p>
+          <p className="text-sm">We'd love to hear from you! Please reach out using the form below or contact us directly at +1-(813)-499-9090.</p>
         </div>
 
         <div className="p-4 flex flex-col justify-center">
