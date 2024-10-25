@@ -4,7 +4,10 @@ function Footer() {
   return (
     <div>
         <footer className="footer footer-center bg-gray-400 text-black rounded p-10 mt-24 ">
-    
+
+  <aside>
+    <b><p className='text-grey-500'>These Services are for Pennsylvania, Ohio, and Florida residents only</p></b>
+  </aside>
   <nav className="grid grid-flow-col gap-4">
     <a className="link link-hover" href='/'>Home</a>
     <a className="link link-hover" href='https://www.optimantra.com/optimus/om/patient/login?accessPoint=UzBCcVd2WTZiRnNsUkpCOWQ4ZU1udz09' target='_blank'>Patient Portal</a>
@@ -13,10 +16,7 @@ function Footer() {
   </nav>
   
   <aside>
-    <p>Copyright © <span className='text-[#EF4444]'>SimrikMed</span> {new Date().getFullYear()} - All rights reserved</p>
-  </aside>
-  <aside>
-    <b><p className='text-red-500'>These Services are for Pennsylvania, Ohio, and Florida residents only</p></b>
+    <p>Copyright © <span className='text-[#EF4444]'>SimrikMed LLC</span> {new Date().getFullYear()} - All rights reserved</p>
   </aside>
 </footer>
     </div>
