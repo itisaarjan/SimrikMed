@@ -14,46 +14,32 @@ function VirtualCare() {
       header={<h1><b>Experience healthcare from the comfort of your home</b></h1>} 
       content={
         <>
-          In our Virtual Urgent Care, patients are given the opportunity to consult with healthcare professionals remotely using technology such as video conferencing or phone calls. 
+          In our SimrikMed Virtual Urgent Care, patients are given the opportunity to consult with healthcare professionals remotely using technology such as video conferencing. 
           This approach ensures that patients can receive timely medical services such as:
-          <ul className="list-disc ml-5">
-            <li>Abdomen Pain</li>
-            <li>Allergies</li>
-            <li>Anxiety/Depression</li>
-            <li>Asthma/ COPD</li>
-            <li>Back Pain/Sciatica</li>
-            <li>Bacterial vaginosis</li>
-            <li>Birth Control Pills</li>
-            <li>Bronchitis</li>
-            <li>Cough</li>
-            <li>Dental Infection</li>
-            <li>Diabetes</li>
-            <li>Drug Test</li>
-            <li>Erectile Dysfunction</li>
-            <li>Fall injury</li>
-            <li>Hair Loss</li>
-            <li>Headache</li>
-            <li>Hemorrhoids</li>
-            <li>High Blood Pressure</li>
-            <li>Insomnia</li>
-            <li>Migraine</li>
-            <li>Medication refill</li>
-            <li>Muscle Spasm</li>
-            <li>Nausea/Vomiting/Diarrhea</li>
-            <li>Pink Eye</li>
-            <li>Quit Smoking</li>
-            <li>Rashes</li>
-            <li>Sinus Problem</li>
-            <li>Skin Infection</li>
-            <li>Sore Throat</li>
-            <li>STDs/STI screening and treatment</li>
-            <li>TB Screening</li>
-            <li>Upper respiratory symptoms</li>
-            <li>UTI</li>
-            <li>Wound</li>
-            <li>X-ray order</li>
-            <li>Yeast infection</li>
-          </ul>
+<div className="flex justify-center">
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-4 sm:ml-20">
+    {[
+      "Abdomen Pain", "Allergies", "Anxiety/Depression", "Asthma/COPD", "Back Pain/Sciatica", 
+      "Bacterial vaginosis", "Birth Control Pills", "Bronchitis", "Cough", "Dental Infection", 
+      "Diabetes", "Drug Test", "Erectile Dysfunction", "Fall injury", "Hair Loss", 
+      "Headache", "Hemorrhoids", "High Blood Pressure", "Insomnia", "Migraine", 
+      "Medication refill", "Muscle Spasm", "Nausea/Vomiting/Diarrhea", "Pink Eye", 
+      "Quit Smoking", "Rashes", "Sinus Problem", "Skin Infection", "Sore Throat", 
+      "STDs/STI screening and treatment", "TB Screening", "Upper respiratory symptoms", 
+      "UTI", "Wound", "X-ray order", "Yeast infection"
+    ].map((item) => (
+      <div 
+        key={item}
+        className="bg-red-500 text-white p-4 rounded-lg shadow-lg flex items-center justify-center font-semibold text-center"
+      >
+        {item}
+      </div>
+    ))}
+  </div>
+</div>
+
+
+
         </>
       }
       img1={img1}

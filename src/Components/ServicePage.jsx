@@ -31,8 +31,14 @@ function ServicePage(props) {
             </a> */}
 
             <div>
-                <h1 className='text-1xl mt-8 text-[black]'>Our services are HIPAA compliance</h1>
-                <h1 className='text-1xl mt-8 text-[red] text-center'> <b>Medications and all price ${props.price} per visit</b></h1>
+                <h1 className='text-1xl mt-8 text-[black] ml-8 sm:ml-16'>Our services are HIPAA compliant</h1>
+                <h1 className='text-1xl mt-8 text-[red] text-center'> <div className="flex justify-center items-center min-h-[200px] bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-xl shadow-xl p-8 m-4">
+  <p className="text-4xl sm:text-5xl font-bold">
+    <span className="block mb-2">Only</span>
+    <b>${props.price} per visit</b>
+  </p>
+</div>
+</h1>
                 {/* <h1><b>Medical Services provided only in Florida, Ohio and Pennsylvania</b></h1> */}
             </div>
             <div className='flex items-center mt-8 justify-between'>
