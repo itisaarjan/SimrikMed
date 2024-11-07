@@ -11,7 +11,7 @@ function HeroSection() {
           <img 
             src={logo} 
             alt="SimrikMed Logo" 
-            className='w-24 sm:w-40 lg:w-60 h-auto -mt-4 sm:-mt-8' 
+            className='w-24 w-48 sm:w-40 lg:w-60 h-auto -mt-4 sm:-mt-8' 
           />
 
           {/* "$59 per visit" with more margin on mobile */}
