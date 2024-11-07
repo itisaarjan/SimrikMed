@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <div>
-        <footer className="footer footer-center bg-gray-400 text-black rounded p-10 mt-80 sm:mt-36 ">
+        <footer className="footer footer-center bg-gray-400 text-black rounded p-10 mt-[28rem] sm:mt-36 ">
 
   <aside>
     <b><p className='text-grey-500'>These Services are for Pennsylvania, Ohio, and Florida residents only</p></b>
