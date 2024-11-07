@@ -16,6 +16,8 @@ function Footer() {
   </nav>
   
   <aside>
+    <p>Fax Number: 800-499-5068</p>
+    <p>G-mail:simrikmed@gmail.com</p>
     <p>Copyright © <span className='text-[#EF4444]'>SimrikMed LLC</span> {new Date().getFullYear()} - All rights reserved</p>
   </aside>
 </footer>
