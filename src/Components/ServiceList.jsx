@@ -18,9 +18,9 @@ function ServiceList() {
   </div>
 
   {/* Adding vertical space before the 'We deliver' section */}
-  <div className="w-full  text-black  mt-16">
+  <div className="w-full  text-black  mt-16 mb-8">
     <div className="text-center italic text-md">
-      <h1 className="text-black mb-4">
+      <h1 className="text-black mb-8">
         We deliver medications to your door or pick from your nearest pharmacy
       </h1>
     </div>
