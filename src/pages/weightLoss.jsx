@@ -84,7 +84,7 @@ function WeightLoss() {
                   <p className='w-[90%] sm:w-[65%] text-left m-auto mb-4'>
                     It is <b>FDA-approved</b> weight loss medication that combines <b>naltrexone</b> and <b>bupropion</b> help suppress appetite and reduce cravings. When used alongside a healthy diet and exercise, <b>it promotes significant healthy weight loss</b>, improves metabolic health, and aids in the long-term management of weight. Contrave is particularly beneficial for individuals struggling with overeating and unhealthy food cravings.
                     <br />
-                    <b>Pricing</b>: $150 per month
+                    <b>Pricing</b>: $199 per month
                   </p>
 
                 </div>
