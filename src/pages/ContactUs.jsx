@@ -3,13 +3,13 @@ import emailjs from '@emailjs/browser';
 
 function ContactUs() {
   const form = useRef();
-  const [isConsentChecked, setIsConsentChecked] = useState(false); // Track SMS consent checkbox
+  const [consentChoice, setConsentChoice] = useState(''); // Track user consent choice
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    if (!isConsentChecked) {
-      alert('Please agree to the SMS Consent to proceed.');
+    if (consentChoice === '') {
+      alert('Please select your SMS consent choice to proceed.');
       return;
     }
 
@@ -89,23 +89,39 @@ function ContactUs() {
               />
             </div>
 
-            <div className="flex items-center mt-4">
-              <input
-                id="smsConsent"
-                type="checkbox"
-                checked={isConsentChecked}
-                onChange={() => setIsConsentChecked(!isConsentChecked)}
-                className="mr-2"
-              />
-              <label htmlFor="smsConsent" className="text-sm text-gray-700">
-                SMS Consent: We will never spam you. By checking this box, you agree to receive SMS updates with onboarding and customer service information from SimrikMed LLC to the number provided. Msg frequency varies. Msg and data rates may apply.
-              </label>
+            <div className="flex flex-col mt-4">
+              <label className="text-sm text-gray-700 font-medium mb-2">SMS Consent:</label>
+              <div className="flex items-center">
+                <input
+                  id="consentAgree"
+                  type="radio"
+                  value="agree"
+                  checked={consentChoice === 'agree'}
+                  onChange={() => setConsentChoice('agree')}
+                  className="mr-2"
+                />
+                <label htmlFor="consentAgree" className="text-sm text-gray-700">
+                  I agree to receive SMS updates with onboarding and customer service information from SimrikMed LLC to the number provided. Msg frequency varies. Msg and data rates may apply.
+                </label>
+              </div>
+              <div className="flex items-center mt-2">
+                <input
+                  id="consentDisagree"
+                  type="radio"
+                  value="disagree"
+                  checked={consentChoice === 'disagree'}
+                  onChange={() => setConsentChoice('disagree')}
+                  className="mr-2"
+                />
+                <label htmlFor="consentDisagree" className="text-sm text-gray-700">
+                  I do not agree to receive SMS updates.
+                </label>
+              </div>
             </div>
 
             <button
               type="submit"
-              className={`w-full bg-blue-500 text-white text-sm font-bold py-2 rounded hover:bg-blue-600 transition duration-200 ${!isConsentChecked ? 'opacity-50 cursor-not-allowed' : ''}`}
-              disabled={!isConsentChecked} // Disable button if checkbox is not checked
+              className="w-full bg-blue-500 text-white text-sm font-bold py-2 rounded hover:bg-blue-600 transition duration-200"
             >
               Send Message
             </button>

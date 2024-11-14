@@ -21,7 +21,7 @@ function ServiceList() {
   <div className="w-full  text-black  mt-16 mb-8">
     <div className="text-center italic text-md">
       <h1 className="text-black mb-8">
-        We deliver medications to your door or pick from your nearest pharmacy
+        We deliver medications at your door or pick from your nearest pharmacy
       </h1>
     </div>
   </div>
