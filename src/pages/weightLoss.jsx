@@ -72,11 +72,11 @@ function WeightLoss() {
                     </h1>
                     <ul className='text-left m-auto w-[90%] sm:w-[65%] list-disc'>
                       <li><b>Semaglutide / Pyridoxine (Vitamin B6) Weekly Injection</b> - $250 per month </li>
-                      <li><b>Semaglutide / Pyridoxine (Vitamin B6) Weekly Injection</b> - $650 for three months ($100 discount)</li>
+                      <li><b>Semaglutide / Pyridoxine (Vitamin B6) Weekly Injection</b> - $500 for three months ($250 discount)</li>
                       <li><b>Semaglutide / Cyanocobalamin (Vitamin b12) Sublingual (Under Tongue) Daily</b> - $250 per month</li>
-                      <li><b>Semaglutide / Cyanocobalamin (Vitamin b12) Sublingual (Under Tongue) Daily</b> - $650 for three months ($100 discount)</li>
+                      <li><b>Semaglutide / Cyanocobalamin (Vitamin b12) Sublingual (Under Tongue) Daily</b> - $500 for three months ($250 discount)</li>
                       <li><b>Tirzepatide Weekly Injection</b> - $300 per month</li>
-                      <li><b>Tirzepatide Weekly Injection</b> - $800 for three months ($100 discount)</li>
+                      <li><b>Tirzepatide Weekly Injection</b> - $900 for three months ($250 discount)</li>
                     </ul>
                   </p>
 
