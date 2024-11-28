@@ -102,6 +102,7 @@ function Footer() {
         <b>Links to Third-Party Sites</b><br />
         The SIMRIKMED LLC Website may contain links to other websites ("Linked Sites"). The Linked Sites are not under the control of SIMRIKMED LLC and SIMRIKMED LLC is not responsible for the content of any Linked Site, including any link contained in a Linked Site or any updates to a Linked Site. SIMRIKMED LLC provides these links as a convenience, and the inclusion of any link does not imply endorsement by SIMRIKMED LLC of the site or any association with its operators.
       </p>
+      <p></p>
 
       <p className="mb-4">
         <b>No Unlawful or Prohibited Use</b><br />
@@ -197,7 +198,7 @@ function Footer() {
 
       <p className="mb-4">
         <b>Use of Personal Information</b><br />
-        SIMRIKMED LLC uses your personal information to operate the website and deliver requested services. We may also use your information to notify you of additional SIMRIKMED LLC services, products, or research opportunities through secure, end-to-end encrypted two-way texting services. SIMRIKMED LLC does not charge for texting services, but your service carrier may apply messaging and data rates. Please contact your SMS service provider for more details.
+        SIMRIKMED LLC uses your personal information to operate the website and deliver requested services. We may also use your information to notify you of additional SIMRIKMED LLC services, products, or research opportunities through secure, end-to-end encrypted two-way texting services.SMS opt-in or phone numbers for the purpose of SMS are not shared with any third parties or affiliate companies for marketing purposes. SIMRIKMED LLC does not charge for texting services, but your service carrier may apply messaging and data rates. Please contact your SMS service provider for more details.
       </p>
       <p className="mb-4">
         SIMRIKMED LLC does not sell, rent, or lease customer lists to third parties. Data may be shared with trusted partners who assist with statistical analysis, communication, customer support, or deliveries. All third parties must maintain confidentiality and use your data only for service purposes. Sensitive information like race, religion, or political affiliation is not disclosed without explicit consent.
