@@ -14,7 +14,7 @@ function PhysicalExam() {
     title="Xray" 
     header={<h1></h1>}
     content={<>
-  <h1 className='text-2xl'>We will place the order for diagnostic imaging, such as X-ray, MRI, CT scan, or ultrasound, at your nearest imaging facility.</h1>
+  <h1 className='text-xl sm:text-2xl'>We will place the order for diagnostic imaging, such as X-ray, MRI, CT scan, or ultrasound, at your nearest imaging facility.</h1>
     
     </>}
     img1={img1}
