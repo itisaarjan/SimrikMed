@@ -28,7 +28,7 @@ function WeightLoss() {
 
             <h2 className='text-black mx-auto '>
                 <div>
-                  <h1 className='text-3xl sm:text-4xl flex flex-col items-center justify-center mb-4'>Semaglutide</h1>
+                  <h1 className='text-3xl sm:text-4xl flex flex-col items-center justify-center mb-4'>Semaglutide / Pyridoxine (Vitamin B6)</h1>
                   <p className='w-[90%] sm:w-[65%] text-left m-auto mb-4'>
                     Semaglutide is a synthetic GLP-1 analog engineered to resist degradation by the enzyme dipeptidyl peptidase 4 (DPP-4), allowing it to stay active in the body longer than its natural counterpart. This extended action has demonstrated significant benefits in weight loss and glucose control. It is an FDA-approved medication for weight loss.  
                   </p>
@@ -47,7 +47,7 @@ function WeightLoss() {
                     </ul>
                   </div>
 
-                  <h1 className='text-3xl sm:text-4xl flex flex-col items-center justify-center mb-4 mt-16'>Tirzepatide</h1>
+                  <h1 className='text-3xl sm:text-4xl flex flex-col items-center justify-center mb-4 mt-16'>Tirzepatide / Pyridoxine (Vitamin B6)</h1>
                   <p className='w-[90%] sm:w-[65%] text-left m-auto mb-4'>
                     Tirzepatide, a GIP and GLP-1 receptor agonist, is a 39-amino-acid modified peptide that has demonstrated significant potential in aiding weight loss. It selectively binds to and activates GIP and GLP-1 receptors, helping suppress appetite and reduce food intake. When combined with a healthy diet and exercise, Tirzepatide enhances the weight loss process, promotes balanced glucose levels, and improves overall metabolic health. It is FDA-approved for weight loss, underscoring its effectiveness as a treatment for obesity.
                   </p>
@@ -60,6 +60,7 @@ function WeightLoss() {
                       <li>Proven Healthy Weight Loss</li>
                       <li>Balanced glucose levels</li>
                       <li>Reduced food cravings</li>
+                      <li>Hemoglobin A1C (Hgb A1C) reduction</li>
                       <li>Appetite Control</li>
                       <li>Increased Energy</li>
                       <li>Supports healing of hair, skin, and nails</li>
@@ -76,7 +77,7 @@ function WeightLoss() {
                       <li><b>Semaglutide / Cyanocobalamin (Vitamin b12) Sublingual (Under Tongue) Daily</b> - $250 per month</li>
                       <li><b>Semaglutide / Cyanocobalamin (Vitamin b12) Sublingual (Under Tongue) Daily</b> - $500 for three months ($250 discount)</li>
                       <li><b>Tirzepatide Weekly Injection</b> - $300 per month</li>
-                      <li><b>Tirzepatide Weekly Injection</b> - $900 for three months ($250 discount)</li>
+                      <li><b>Tirzepatide Weekly Injection</b> - $800 for three months ($250 discount)</li>
                     </ul>
                   </p>
 

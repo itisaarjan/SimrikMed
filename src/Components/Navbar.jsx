@@ -38,6 +38,8 @@ function Navbar() {
                         {/* <li><a href='/services/in-house-vaccination'>In-House vaccination</a></li> */}
                         <li><a href='/services/virtual-care'>Virtual Urgent Care</a></li>
                         <li><a href='/services/medical-weight-loss'>Medical Weight Loss</a></li>
+                        <li><a href="/services/xray">XRAY</a></li>
+                        <li><a href="/services/labtests">LAB</a></li>
                 </ul>
               </details>
               </li>
@@ -72,6 +74,8 @@ function Navbar() {
                         {/* <li><a href='/services/in-house-vaccination'>In-House vaccination</a></li> */}
                         <li><a href='/services/virtual-care'>Virtual Urgent Care</a></li>
                         <li><a href='/services/medical-weight-loss'>Medical Weight Loss</a></li>
+                        <li><a href="/services/xray">XRAY</a></li>
+                        <li><a href="/services/labtests">LAB</a></li>
                     </ul>
             </details>
 

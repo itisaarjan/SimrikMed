@@ -2,6 +2,8 @@ import React from 'react';
 import ServiceIcon from './ServiceIcon';
 import weightLoss from "../assets/weightloss.jpeg";
 import virtualCare from '../assets/virtualcare.png';
+import xray from '../assets/xray.jpg'
+import labimg from '../assets/labimg.jpg'
 import { Link } from 'react-router-dom';
 
 function ServiceList() {
@@ -15,14 +17,17 @@ function ServiceList() {
     <Link to='/services/medical-weight-loss' className='max-w-sm'>
       <ServiceIcon image={weightLoss} title="Medical Weight Loss" />
     </Link>
+    <Link to='/services/xray' className='max-w-sm'>
+      <ServiceIcon image={xray} title='Xray'/>
+    </Link>
+    <Link to='/services/labtests' className='max-w-sm'>
+      <ServiceIcon image={labimg} title='lab'/>
+    </Link>
   </div>
 
   {/* Adding vertical space before the 'We deliver' section */}
   <div className="w-full  text-black  mt-16 mb-8">
     <div className="text-center italic text-md">
-      <h1 className="text-black mb-8">
-        We deliver medications at your door or pick from your nearest pharmacy
-      </h1>
     </div>
   </div>
 </div>

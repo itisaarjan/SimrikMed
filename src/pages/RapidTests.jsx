@@ -16,22 +16,32 @@ function RapidTests() {
         img4={img4}
         img5={img5}
         img6={img6}
-    title="rapid lab tests and screening"
-    header={<><h1 className='text-3xl'>Rapid Lab tests and Screening</h1></>}
+    title="Lab tests and screening"
+    header={<><h1 className='text-1xl'>We will securely arrange and pre-pay your lab order, ensuring it’s readily available at the nearest Labcorp or Quest Diagnostics facility for your convenience.</h1></>}
 
     content={<ul className='list-disc'>
   <li>Allergies - Food & Environmental</li>
-  <li>COVID-19 Testing</li>
-  <li>STD & HIV Testing</li>
-  <li>Blood draws Rapid HIV (results in 15 min.)</li>
-  <li>Rapid Influenza A&B Testing (results in 15 min.)</li>
-  <li>Rapid mononucleosis screening (15 min.)</li>
-  <li>Rapid strep (results in 15 min.)</li>
-  <li>Urine pregnancy test</li>
-  <li>Urinalysis</li>
-  <li>Drug Screening</li>
-  <li>& much more...</li>
+<li>Autimmune Disease Testing</li>
+<li>Blood Titers</li>
+<li>Cholestrol Testing</li>
+<li>Coagulation Testing</li>
+<li>Diabetic Testing (HbA1c)</li>
+<li>Drug Screening</li>
+<li>Hormonal Test</li>
+<li>Iron Studies</li>
+<li>Kidney Function Test</li>
+<li>Liver Function Testing</li>
+<li>Pregnancy test</li>
+<li>Prostate-Specific Antigen</li>
+<li>STD & STI Testing (Only $199)</li>
+<li>TB Testing</li>
+<li>Thyroid Test</li>
+<li>Urinalysis</li>
+<li>Vitamin Minerals Panel</li>
+<li>Weight Loss Blood Work</li>
+<li>Whole Body Checkup (Only $199)</li>
 </ul>
+
 }/>
   )
 }
