@@ -21,7 +21,7 @@ function RapidTests() {
 
     content={<ul className='list-disc'>
   <li>Allergies - Food & Environmental</li>
-<li>Autimmune Disease Testing</li>
+<li>Autoimmune Disease Testing</li>
 <li>Blood Titers</li>
 <li>Cholestrol Testing</li>
 <li>Coagulation Testing</li>
