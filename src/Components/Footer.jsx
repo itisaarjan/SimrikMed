@@ -17,7 +17,7 @@ function Footer() {
 
   return (
     <div>
-      <footer className="footer footer-center bg-gray-400 text-black rounded p-10 mt-[70rem] sm:mt-[30rem]">
+      <footer className="footer footer-center bg-gray-400 text-black rounded p-10 mt-[70rem] sm:mt-[25rem]">
         <aside>
           <b>
             <p className="text-[black]">
