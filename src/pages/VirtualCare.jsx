@@ -14,7 +14,7 @@ function VirtualCare() {
       header={<h1><b>Experience healthcare from the comfort of your home</b></h1>} 
       content={
         <>
-          In our SimrikMed Care, patients are given the opportunity to consult with healthcare professionals remotely using technology such as video conferencing. 
+          In our SimrikMed Virtual Care, patients are given the opportunity to consult with healthcare professionals remotely using technology such as video conferencing. 
           This approach ensures that patients can receive timely medical services such as:
 <div className="flex justify-center">
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-4 sm:ml-20">
@@ -34,6 +34,7 @@ function VirtualCare() {
       >
         {item}
       </div>
+      
     ))}
   </div>
 </div>
