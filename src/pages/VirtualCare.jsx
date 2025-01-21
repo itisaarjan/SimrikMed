@@ -16,6 +16,9 @@ function VirtualCare() {
         <>
           In our SimrikMed Virtual Care, patients are given the opportunity to consult with healthcare professionals remotely using technology such as video conferencing. 
           This approach ensures that patients can receive timely medical services such as:
+          <p className='m-auto'>
+            <b>Open: 7am to 11pm</b>
+          </p>
 <div className="flex justify-center">
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-4 sm:ml-20">
     {[
