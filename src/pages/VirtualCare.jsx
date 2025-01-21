@@ -10,11 +10,11 @@ import img6 from '../assets/VirtualCare/vc6.jpeg';
 function VirtualCare() {
   return (
     <ServicePage 
-      title='Virtual Urgent Care' 
+      title='Virtual Care' 
       header={<h1><b>Experience healthcare from the comfort of your home</b></h1>} 
       content={
         <>
-          In our SimrikMed Virtual Urgent Care, patients are given the opportunity to consult with healthcare professionals remotely using technology such as video conferencing. 
+          In our SimrikMed Care, patients are given the opportunity to consult with healthcare professionals remotely using technology such as video conferencing. 
           This approach ensures that patients can receive timely medical services such as:
 <div className="flex justify-center">
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-4 sm:ml-20">

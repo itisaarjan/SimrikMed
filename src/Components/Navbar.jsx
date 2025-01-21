@@ -36,7 +36,7 @@ function Navbar() {
                         {/* <li><a>Wellness Services</a></li> */}
                         {/* <li><a>Chronic Medical Conditions</a></li> */}
                         {/* <li><a href='/services/in-house-vaccination'>In-House vaccination</a></li> */}
-                        <li><a href='/services/virtual-care'>Virtual Urgent Care</a></li>
+                        <li><a href='/services/virtual-care'>Virtual Care</a></li>
                         <li><a href='/services/medical-weight-loss'>Medical Weight Loss</a></li>
                         <li><a href="/services/xray">XRAY</a></li>
                         <li><a href="/services/labtests">LAB</a></li>
@@ -72,7 +72,7 @@ function Navbar() {
                         {/* <li><a>Wellness Services</a></li> */}
                         {/* <li><a>Chronic Medical Conditions</a></li> */}
                         {/* <li><a href='/services/in-house-vaccination'>In-House vaccination</a></li> */}
-                        <li><a href='/services/virtual-care'>Virtual Urgent Care</a></li>
+                        <li><a href='/services/virtual-care'>Virtual Care</a></li>
                         <li><a href='/services/medical-weight-loss'>Medical Weight Loss</a></li>
                         <li><a href="/services/xray">XRAY</a></li>
                         <li><a href="/services/labtests">LAB</a></li>

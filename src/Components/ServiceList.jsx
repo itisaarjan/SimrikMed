@@ -12,7 +12,7 @@ function ServiceList() {
   <hr className='my-4'/>
   <div className='flex flex-wrap justify-center items-center gap-10'>
     <Link to='/services/virtual-care' className='max-w-sm'>
-      <ServiceIcon image={virtualCare} title="Virtual Urgent Care" />
+      <ServiceIcon image={virtualCare} title="Virtual Care" />
     </Link>
     <Link to='/services/medical-weight-loss' className='max-w-sm'>
       <ServiceIcon image={weightLoss} title="Medical Weight Loss" />
