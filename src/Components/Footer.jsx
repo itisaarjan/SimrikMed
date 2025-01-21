@@ -23,7 +23,7 @@ function Footer() {
             <p className="text-[black]">
               These Services are for Pennsylvania, Ohio, and Florida residents only
             </p>
-            <p> Hours: 7am to 11pm</p>
+            <p className='mt-4'> Hours: 7am to 11pm</p>
           </b>
         </aside>
         <nav className="grid grid-flow-col gap-4">
